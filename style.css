@@ -393,6 +393,32 @@ section { padding: 52px 20px 60px; max-width: 960px; margin: 0 auto; }
   box-shadow: none; cursor: not-allowed; pointer-events: none;
 }
 
+/* Grupo de botões duplos (Geladeira / Fogão) */
+.gift-btn-group {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gift-btn-group .gift-buy {
+  margin-top: 0;
+}
+
+/* Botão "Participar com um valor" — estilo secundário verde WhatsApp */
+.gift-buy--participate {
+  background: transparent;
+  color: #25a244;
+  border: 2px solid #25a244;
+  box-shadow: none;
+}
+
+.gift-buy--participate:hover {
+  background: #25a244;
+  color: var(--white);
+  box-shadow: 0 5px 16px rgba(37, 162, 68, 0.35);
+}
+
 .gift-received {
   background: var(--forest);
   color: var(--white);
